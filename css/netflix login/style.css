@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./netflix logos/netfliximages.jpg");
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #8c8c8c;
+    background-color: #323332;
+}
+
+#formcontainer {
+    background-color: rgba(0, 0, 0, 0.802);
+    height: 90vh;
+    width: 32vw;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    
+
+}
+
+#inputcontainer {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.pass {
+    margin-bottom: 1rem;
+}
+
+#inputcontainer > input {
+    padding: 0.9rem;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: #727273;
+    
+}
+
+input[type="submit"] {
+    background-color: red !important;
+    color: white !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div > h1 {
+    /*color: white;
+    margin-bottom: 1rem;*/
+    font-family: sans-serif;
+    
+}
+
+#formrow {
+    /*background-color: green;*/
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 15px;
+    font-family: sans-serif;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+a:hover {
+    border-bottom: underline;
+}
+
+#footer {
+    /*background-color: green;*/
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+
+.netflix-icon {
+    width: 10rem;
+    position: absolute;
+    top: 1rem;
+    left: 2.5rem;
+}
+ 
+.dark {
+    background-color: rgba(0, 0, 0, 0.498);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+

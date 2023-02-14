@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+    display
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 30vw;
+    background-color: aqua;
+    align-content: center;
+    
+
+    
+}
+
+.left {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.right {
+    width: 55%;
+    background-color: white;
+}
+
+.img {
+    size: 2px;
+}
